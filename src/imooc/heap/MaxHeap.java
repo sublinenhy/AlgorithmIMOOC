@@ -14,6 +14,7 @@ public class MaxHeap {
         data = new int[n+1];
         for (int i = 0; i < n ; i++) {
             data[i+1] = arr[i];
+
         }
         count = n;
 
